@@ -14,5 +14,8 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void SetTarget(Target target) => _target = target;
+    public void SetTarget(Target target)
+    {
+        _target = target;
+    }
 }

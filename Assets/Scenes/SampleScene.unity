@@ -424,8 +424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63cba9cc0a849b49977603bd6f3e0b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  template: {fileID: -6680326550411830604, guid: c652c02faf6f35f49a8ed6a44c2f896c, type: 3}
-  target: {fileID: 1739557}
+  _enemy: {fileID: -6680326550411830604, guid: c652c02faf6f35f49a8ed6a44c2f896c, type: 3}
+  _target: {fileID: 1739557}
 --- !u!1 &259844455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,8 +1215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63cba9cc0a849b49977603bd6f3e0b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  template: {fileID: -1032238199388191480, guid: d041c0387a5bb564ab2110194bf14101, type: 3}
-  target: {fileID: 1037265755}
+  _enemy: {fileID: -1032238199388191480, guid: d041c0387a5bb564ab2110194bf14101, type: 3}
+  _target: {fileID: 1037265755}
 --- !u!1 &1388297769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,8 +1445,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63cba9cc0a849b49977603bd6f3e0b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  template: {fileID: -6607572680114290927, guid: 065cb91ef2ed2bb40b8ef4ea3d51b1eb, type: 3}
-  target: {fileID: 2023971207}
+  _enemy: {fileID: -6607572680114290927, guid: 065cb91ef2ed2bb40b8ef4ea3d51b1eb, type: 3}
+  _target: {fileID: 2023971207}
 --- !u!1 &2023971206
 GameObject:
   m_ObjectHideFlags: 0
