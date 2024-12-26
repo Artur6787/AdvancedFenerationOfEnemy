@@ -18,6 +18,7 @@ public class SpawnPoint : MonoBehaviour
     {
         _enemy = newEnemy;
     }
+
     public void SetTarget(Target newTarget)
     {
         _target = newTarget;
