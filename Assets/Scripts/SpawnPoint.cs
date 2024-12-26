@@ -15,5 +15,6 @@ public class SpawnPoint : MonoBehaviour
     }
 
     public void SetTemplate(Enemy newTemplate) => template = newTemplate;
+    
     public void SetTarget(Target newTarget) => target = newTarget;
 }
