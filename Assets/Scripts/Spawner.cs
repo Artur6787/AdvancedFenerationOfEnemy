@@ -1,11 +1,10 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
     [SerializeField] private Enemy[] _templates;
-    [SerializeField] private GameObject[] _targets;
+    [SerializeField] private Target[] _targets;
     [SerializeField] private float _spawnTime;
 
     private SpawnPoint[] _points;

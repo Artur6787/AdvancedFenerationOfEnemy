@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    private GameObject _target;
+    private Target _target;
 
     private void Update()
     {
@@ -16,5 +14,5 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void SetTarget(GameObject target) => _target = target;
+    public void SetTarget(Target target) => _target = target;
 }

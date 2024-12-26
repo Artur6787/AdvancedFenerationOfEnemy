@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Target : MonoBehaviour
@@ -26,12 +24,7 @@ public class Target : MonoBehaviour
 
         if (transform.position == _waypoints[_currentWaypoint].position)
         {
-            _currentWaypoint++;
-
-            if (_currentWaypoint >= _waypoints.Length)
-            {
-                _currentWaypoint = 0;
-            }
+            _currentWaypoint = (_currentWaypoint + 1) % _waypoints.Length;
         }
     }
 }

@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
     private Enemy _template;
-    private GameObject _target;
+    private Target _target;
 
     public void Spawn()
     {
@@ -18,5 +16,5 @@ public class SpawnPoint : MonoBehaviour
 
     public void SetTemplate(Enemy template) => _template = template;
 
-    public void SetTarget(GameObject target) => _target = target;
+    public void SetTarget(Target target) => _target = target;
 }
